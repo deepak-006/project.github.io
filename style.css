@@ -1,0 +1,38 @@
+
+
+
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}
+
+.movie{
+    width: 280px;
+    margin: 0.5rem;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    position: relative;
+}
+
+.movie img{
+    width: 100%;
+    border-radius: 3px;
+}
+
+.movie-info{
+ padding: 0.5rem 1rem 1rem;
+}
+#shape{
+    transition-duration: 1s;
+    background-color: aquamarine;
+    display: none;
+    border-radius: 30px;
+    text-align: center;
+}
+#shape #pads{
+    margin: 10px 5px;
+    padding: 15px 10px;
+}
